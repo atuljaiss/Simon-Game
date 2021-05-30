@@ -77,8 +77,14 @@ function showEnd(){
     started = false;
 };
 $(".help").hide();
+$(".up").hide();
 $(".helpButton").click(function(){
-    $(".help").toggle();
+    $(".help").slideDown();
+    $(".up").fadeIn();
+    $(".up").click(function(){
+        $(".help").slideUp();
+        $(".up").fadeOut();
+    })
 });
 
 
