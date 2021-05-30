@@ -78,9 +78,14 @@ h1{
     background-color: red;
 }
 @media (max-width : 900px) {
+    .containerss{
+        width: 90%;
+        margin: auto;
+        text-align: center;
+    }
     .square{
-        width: 80px;
-        height: 80px;
+        width: 100px;
+        height: 100px;
         margin :  3%;
         border-radius: 10px;
         border : 5px solid black
@@ -99,6 +104,7 @@ h1{
         color: white;
         text-align: left;
         font-size: medium;
+        margin-left: 10px;
 
     }    
 }

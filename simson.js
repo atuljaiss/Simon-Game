@@ -8,8 +8,7 @@ $(".play").click(function(){
         showLevel();
         setTimeout(function(){
             newSeq();
-        },1000)
-        
+        },1000);
         started = true;
     }   
 });
@@ -86,5 +85,6 @@ $(".helpButton").click(function(){
         $(".up").fadeOut();
     })
 });
+
 
 
